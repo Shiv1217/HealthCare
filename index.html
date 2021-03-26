@@ -1,0 +1,527 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>HealthCare</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/all.css">
+   
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+    crossorigin="anonymous">
+  </head>
+  <body>
+
+    <!-- Start Header Part -->
+    <nav class="navbar navbar-expand-lg nav-back fixed-top" 
+    id="mainNav">
+      <div class="container">
+          <a class="navbar-brand" href="#"><i class="fas fa-clinic-medical"></i>  Hospitality</a>
+          <button class="navbar-toggler navbar-toggler-right" type="button"
+           data-toggle="collapse" data-target="#navbarResponsive" 
+           aria-controls="navbarResponsive" aria-expanded="false" 
+           aria-label="Toggle navigation"><i class="fas fa-syringe fa-2x"></i>
+           </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" 
+                  href="./html/about.html">About </a></li>
+                  <li class="nav-item"><a class="nav-link" 
+                    href="./html/services.html"> Services </a></li>
+                  <li class="nav-item"><a class="nav-link" 
+                    href="./html/camp.html"> MedicalCamps </a></li>
+                  <li class="nav-item"><a class="nav-link"
+                     href="./html/team.html"> Team </a></li>
+                  <li class="nav-item"><a class="nav-link" 
+                    href="./html/contact.html"> Contact</a></li>
+              </ul>
+          </div>
+      </div>
+  </nav>
+   <!-- End Header Part --> 
+
+   <!-- Start Hero Section -->
+   <section id="hero" class="d-flex align-items-center">
+    <div class="container text-center position-relative">
+      <h1>24 hour Service Avialable</h1>
+      <h2>To keep the body in good health is a duty, otherwise we shall not be able to keep
+        our mind strong and clean !!! <br>
+        !!! Money can pay fees at the hospital but it can not buy you health !!!
+      </h2>
+      <a href="./html/contact.html" class="hero-button pulsate">Get Started</a>
+    </div>
+  </section>
+  <!-- End Hero Section -->
+
+   <!-- Start Form Section -->
+  <div class="container mt-4 p-4">
+    <div class="row">
+        <div class="col-md-6">
+            <h2 class="text-center my-4">
+                Find Consultations
+            </h2>
+            <form>
+                <div class="form-group row">
+                    <label class="col-sm-4 col-lg-4">
+                        Patient Name
+                    </label>
+                    <div class="col-sm-8 col-lg-8">
+                        <input type="text"id="patient-name"class="form-control"
+                        placeholder="Name"required>
+                    </div>
+                </div>
+                <!---->
+                <div class="form-group row">
+                  <label class="col-sm-4 col-lg-4">
+                      Contact
+                  </label>
+                  <div class="col-sm-8 col-lg-8">
+                      <input type="tel"id="contact"class="form-control"
+                      placeholder="123"required>
+                  </div>
+              </div>
+              <!---->
+              <div class="form-group row">
+                  <label class="col-sm-4 col-lg-4">
+                    Date
+                  </label>
+                  <div class="col-sm-8 col-lg-8">
+                      <input type="date"id="date"class="form-control">
+                  </div>
+              </div>
+              <!---->
+              <div class="form-group row">
+                  <label class="col-sm-4 col-lg-4">
+                     Time
+                  </label>
+                  <div class="col-sm-8 col-lg-8">
+                      <input type="time"id="time"class="form-control">
+                     </div>
+              </div>
+              <!---->
+              <div class="form-group row">
+                  <label class="col-sm-4 col-lg-4">
+                     Symptoms
+                  </label>
+                  <div class="col-sm-8 col-lg-8">
+                      <textarea id="symptoms" class="form-control" required></textarea>
+                  </div>
+              </div>
+              <!---->
+              <div class="form-group row justify-content-end">
+                  <div class="col-sm-5">
+                      <button type="submit"class="btn btn-form">
+                          Submit
+                      </button>
+                  </div>
+              </div>
+
+            </form>
+        </div>
+        <div class="col-md-6">
+            <h2 id="services" class="text-center my-4"></h2>
+            <ul id="consultations"class="list-group"></ul>
+        </div>
+    </div>
+</div>
+<!-- End Form Section -->
+
+  <!-- Start Services Section -->
+  <section id="services" class="services mt-5 mb-3 py-3">
+    <div class="container">
+      <div class="section-title">
+        <h2 class="text-center">Our Services</h2>
+        <br><br>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+          <div class="service shadow">
+            <div class="icon">
+                <i class="fas fa-tooth"></i>
+            </div>
+            <h4><a href="">Orthodontic Services</a></h4>
+            <p>Orthodontic service help improve the alignment of the teeth and jaw. Patients who have an
+              overbite, underbite, crossbite, or misaligned teeth may require or seek out Orthodontic services
+              to help correct such issues !!!
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+          <div class="service c shadow">
+            <div class="icon">
+                <i class="fas fa-lungs"></i>
+            </div>
+            <h4><a href="">Lungs</a></h4>
+            <p>For the patients with early stage non-small cell lung cancer, we provide an affordable
+              offer for sergery. Also Chemotherapy, Targeted therapy, and Immunotherapy are the best part
+              of our services !!!
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+          <div class="service shadow">
+            <div class="icon">
+                <i class="fas fa-heart"></i>
+            </div>
+            <h4><a href=""></a>Cardiology</h4>
+            <p>Best solution of all kinds of heart diseases and top Heart Transplant SUrgeons
+              are the best part of our hospitality services !!!
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+          <div class="service c shadow">
+            <div class="icon">
+                <i class="fas fa-dna"></i>
+            </div>
+            <h4><a href="">Genomics</a></h4>
+            <p>We provide the services for Deoxyribonucleic Acid(DNA) Cloning, DNA Hybridisation, Finding
+              Disease Genes, DNA Future Directions, DNA Bibligraphy etc !!!
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+          <div class="service shadow">
+            <div class="icon">            
+          <i class="fas fa-ambulance"></i>
+            </div>
+            <h4><a href="">Ambulance Service</a></h4>
+            <p>Free Ambulance Services for the patients who are from urban regions just call on the
+              mentioned contact number and get the Ambulance on the spot !!!
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+          <div class="service shadow">
+            <div class="icon">
+            <i class="fas fa-allergies"></i>
+            </div>
+            <h4><a href=""></a>24Hrs Service</h4>
+            <p>We give much priorities to our customers so we are providing 24 hours emergency services,
+              despite of the day and time !!!/p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+  <!-- End Services Section -->
+
+  <!-- Start About Section -->
+ <section class="about-section clearfix py-5">
+    <div class="container">
+      <div class="about">
+        <img class="about-img img-fluid mb-3 mb-lg-0 rounded" 
+        src="./images/bg2.jpeg" alt="">
+        <div class="about-text left-0 text-center bg-faded p-5 rounded">
+          <h2 class="about-heading mb-4">
+            <span class="about-heading-upper">Welcome</span>
+            <span class="about-heading-lower">To Our Hospital</span>
+          </h2>
+          <p class="mb-3">!!! Our Rehab Services department provides Personalized, Quality, Physical, Occupational,
+            and Speech Therapy. No matter the issue, out compassionate rehab team is here to help you get better
+            and back to your life as quickly as possible !!!
+          </p>
+          <div class="about-button mx-auto">
+            <a class="btn btn-color btn-lg" href="#">Know More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End of about section -->
+
+  <!-- Start Medical Camp Section -->
+  <section class="camp">
+
+    <div class="container text-center">
+      <h2 class="py-3">
+        Medical Camps
+      </h2>
+
+      <p>
+        !!! We should be concerned not only about the health of individual patients, but also the health of our 
+        entire society !!!
+      </p>
+    </div>
+
+    <div class="camp-grid">
+      <div class="row">
+        <div class="col-lg-3 col-sm-6 col-xs-12">
+          <div class="card card-block">
+            <img src="./images/bg3.jpeg"alt="">
+              <div class="camp-text">
+                <div>
+                  <h3 class="card-title">
+                   Best Service Ever
+                  </h3>
+
+                  <p class="card-text">
+                    Every year we used to Organize a Medical  to provide free Services among poor people !!!
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-sm-6 col-xs-12">
+          <div class="card card-block">
+            <img  src="./images/bg8.jpeg" alt="">
+            
+              <div class="camp-text">
+                <div>
+                  <h3 class="card-title">
+                    Best Service Ever
+                  </h3>
+
+                  <p class="card-text">
+                  Every year we used to Organize a Medical  to provide free Services among poor people !!!
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-sm-6 col-xs-12">
+          <div class="card card-block">
+            <img  src="./images/bg9.jpeg"alt="">
+              <div class="camp-text">
+                <div>
+                  <h3 class="card-title">
+                    Best Service Ever
+                  </h3>
+
+                  <p class="card-text">
+                    Every year we used to Organize a Medical  to provide free Services among poor people !!!
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-sm-6 col-xs-12">
+          <div class="card card-block">
+          <img  src="./images/bg10.jpeg"alt="">
+              <div class="camp-text">
+                <div>
+                  <h3 class="card-title">
+                    Best Service Ever
+                  </h3>
+
+                  <p class="card-text">
+                    Every year we used to Organize a Medical  to provide free Services among poor people !!!
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Portfolio Section -->
+
+<!-- Start Team Section -->
+<section id="team" class="team mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="section-title">
+            <h2>Team</h2>
+            <p>Our hardworking and enthusiastic team works contineously to give you full of support
+              physically, mentally and also economically.
+              
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-8">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="member">
+                <div class="image"><img src="./images/bg3.jpeg" 
+                  class="img-fluid" alt=""></div>
+                <div class="member-info">
+                  <h4>Dr. Ramesh Jha</h4>
+                  <span> Executive Officer</span>
+                  <p>He handles all the processes executing in the medical, also he took the responsibilities of
+                    medical camps !!!</p>
+                  <div class="social">
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                    <a href=""><i class="fab fa-facebook"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""> <i class="fab fa-linkedin"></i> </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 mt-4 mt-lg-0">
+              <div class="member">
+                <div class="image"><img src="./images/bg4.jpeg" 
+                  class="img-fluid" alt=""></div>
+                <div class="member-info">
+                  <h4>Dr. Krishna Prasad</h4>
+                  <span>Medicine Department</span>
+                  <p>Import and Export of medicines in the hospital should must be handeled by a trusted people
+                    like Dr. Prasad !!!
+                  </p>
+                  <div class="social">
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                    <a href=""><i class="fab fa-facebook"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""> <i class="fab fa-linkedin"></i> </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 mt-4">
+              <div class="member">
+                <div class="image"><img src="./images/bg5.jpeg" 
+                  class="img-fluid" alt=""></div>
+                <div class="member-info">
+                  <h4></h4>
+                  <span>Master Science</span>
+                  <p>Our Master Science doctors are well experienced for more than 5 years in their work of field !!!</p>
+                  <div class="social">
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                    <a href=""><i class="fab fa-facebook"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""> <i class="fab fa-linkedin"></i> </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 mt-4">
+              <div class="member">
+                <div class="image">
+                  <img src="./images/bg6.jpeg" 
+                  class="img-fluid" alt=""></div>
+                <div class="member-info">
+                  <h4>Dr. Ganesh</h4>
+                  <span>Accountant</span>
+                  <p>Keeping the correct records of every transactions is also a best and important part of
+                    any service, in our case it is safely handeled by Dr. Ganesh and his team !!!
+                  </p>
+                  <div class="social">
+                    <a href="twitter.com"><i class="fab fa-twitter"></i></a>
+                    <a href="facebook.com"><i class="fab fa-facebook"></i></a>
+                    <a href="instagram.com"><i class="fab fa-instagram"></i></a>
+                    <a href="linkedin.com"> <i class="fab fa-linkedin"></i> </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Team Section -->
+
+   <!-- Start Contact Section -->
+   <section class="contact">
+    <div class="container">
+      <div class="section-title text-center mt-5">
+        <h2>Contact</h2>
+        <p>.</p>
+      </div>
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="contact-box">
+                <i class="fas fa-map-signs"></i>
+                <h3>Address</h3>
+                <p>Near Devkota Chowk, Bhairahawa, Sidhharthnagar-13, <br>
+                  Rupandehi, Nepal, Zip Code : 32900</p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="contact-box mt-4">
+                <i class="fas fa-envelope"></i>
+                <h3>Email Us</h3>
+                <p>shivg1655@gmail.com<br>guptashivnarayan017@gmail.com</p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="contact-box mt-4">
+                <i class="fas fa-phone"></i>
+                <h3>Call Us</h3>
+                <p>+916284002775<br>+9779826485227</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <form>
+            <div class="form-row">
+              <div class="col-md-6 form-group">
+                <input type="text" name="name" class="form-control" id="name" 
+                placeholder="Your Name">
+              </div>
+              <div class="col-md-6 form-group">
+                <input type="email" class="form-control" name="email" 
+                id="email" placeholder="Your Email">
+              </div>
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" name="subject" 
+              id="subject" placeholder="Subject" >
+              </div>
+            <div class="form-group">
+              <textarea class="form-control" name="message" rows="5"></textarea>
+             </div>
+             <div class="text-center msg">
+               <button type="submit">Send Message</button>
+             </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Contact Section -->
+
+  <!-- Start Social Icons -->
+<section class="social-icons">
+  <a href="#"><i class="fab fa-facebook facebook"></i></a>
+  <a href="#"><i class="fab fa-twitter twitter"></i></a>
+  <a href="#"><i class="fab fa-instagram instagram"></i></a>
+  <a href="#"><i class="fab fa-google-plus plus"></i></a>
+</section>
+  <!-- End Social Icons -->
+
+  <!-- Start Footer Part -->
+  <footer class="footer py-4 mt-5">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-4 text-lg-left">Copyright : @ Shiv Narayan Gupta</div>
+            <div class="col-lg-4 text-lg-right">
+              <a class="mr-3 text" href="#!">Privacy Policy</a>
+              <a href="#!"class="text">Terms of Use</a></div>
+        </div>
+    </div>
+</footer>
+<!-- End Footer Part -->
+
+   <script src="./javaScript/main.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
